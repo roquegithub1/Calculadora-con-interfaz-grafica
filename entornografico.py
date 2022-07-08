@@ -33,7 +33,7 @@ class Aplication():
 
         # Se declaran los botones
         self.boton1 = ttk.Button(self.raiz, text="Sumar", command=self.sumar)
-        self.boton2 = ttk.Button(self.raiz, text="Cancelar", command=quit)
+        self.boton2 = ttk.Button(self.raiz, text="Salir", command=quit)
         self.boton3 = ttk.Button(self.raiz, text="Restar", command=self.restar)
         self.boton4 = ttk.Button(self.raiz, text="Multiplicar", command=self.multiplicar)
         self.boton5 = ttk.Button(self.raiz, text="Dividir", command=self.dividir)
