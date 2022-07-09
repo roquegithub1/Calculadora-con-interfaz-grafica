@@ -14,7 +14,7 @@ class Aplication():
         # cambia el formato de la fuente actual a negrita
         self.fuente = font.Font(weight='bold')
         # Se definen las etiquetas  que irán con el textbox y se le aplica la fuente importada
-        self.etiq1 = ttk.Label(self.raiz, text="NUMERO 1 1:", font=self.fuente)
+        self.etiq1 = ttk.Label(self.raiz, text="NUMERO 1:", font=self.fuente)
         self.etiq2 = ttk.Label(self.raiz, text="NUMERO 2:", font=self.fuente)
 
         self.mensaje = StringVar()
