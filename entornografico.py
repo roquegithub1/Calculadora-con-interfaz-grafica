@@ -32,11 +32,11 @@ class Aplication():
         self.separ1 = ttk.Separator(self.raiz, orient=HORIZONTAL)
 
         # Se declaran los botones
-        self.boton1 = ttk.Button(self.raiz, text="Sumar", command=self.sumar)
-        self.boton2 = ttk.Button(self.raiz, text="Salir", command=quit)
-        self.boton3 = ttk.Button(self.raiz, text="Restar", command=self.restar)
-        self.boton4 = ttk.Button(self.raiz, text="Multiplicar", command=self.multiplicar)
-        self.boton5 = ttk.Button(self.raiz, text="Dividir", command=self.dividir)
+        self.boton1 = ttk.Button(self.raiz, text="SUMAR", command=self.sumar)
+        self.boton2 = ttk.Button(self.raiz, text="SALIR", command=quit)
+        self.boton3 = ttk.Button(self.raiz, text="RESTAR", command=self.restar)
+        self.boton4 = ttk.Button(self.raiz, text="MULTIPLICAR", command=self.multiplicar)
+        self.boton5 = ttk.Button(self.raiz, text="DIVIDIR", command=self.dividir)
 
         # Se definen las posiciones de los txt, separador, label y botones
         self.etiq1.place(x=30, y=40)
